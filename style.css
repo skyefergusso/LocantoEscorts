@@ -1,0 +1,461 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,600italic,800,700italic,800italic);
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+
+    font-style: normal;
+    font-weight: 400;
+    width:100%;
+
+    background-size: cover
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: arial;
+    font-weight: 400;
+}
+p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color:#6C6969;
+}
+a{
+    color:#f00;
+    text-decoration:none;
+}
+a:focus, a:hover {
+    color: #23527C;
+    text-decoration: none;
+    outline: medium none;
+}
+.no-padding{
+    padding:0;
+}
+
+.center{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+.logo{
+    margin-top: 26px;
+    margin-bottom: 10px;
+}
+.middle-content{
+    margin-top: 35px;
+}
+/*-----------------------------------
+    Chat-now-Page Code CSS section
+-----------------------------------*/
+.chat-now{
+    background: #fff;
+    padding-top: 12px;
+    height: inherit;
+    min-height: 698px;
+    margin-top: 26px;
+    margin-left: 30%;
+    -webkit-box-shadow: -1px -1px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 13px 0px rgba(0,0,0,0.75);
+}
+.chat-now .form-holder {
+    background: #fef2ff;
+    padding: 30px;
+}
+.provide p{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*-----------------------------------
+    Layout-Page Code CSS section
+-----------------------------------*/
+
+.layoutver{
+    background: #fff;
+    margin-top: 26px;
+    margin-left: 22%;
+    -webkit-box-shadow: -1px -1px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 13px 0px rgba(0,0,0,0.75);
+    height: 650px;
+}
+.layoutver h1{
+    font-size: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.webcam{
+    background: #cbb1d0;
+    border-radius: 8px;
+}
+.layoutver .webcam h1{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.layoutver .webcam h2{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.layoutver .webcam h2{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    line-height: 18px;
+}
+.layoutver .webcam .connect-img{
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.webcam-chat{
+    padding: 30px 30px 0px;
+    background: #fef2ff;
+    margin-left: 12px;
+}
+.profile-details h3{
+    font-size: 18px;
+    text-align: center;
+}
+.profile-details .mem-prfl p{
+    font-size: 13px
+}
+.connect-img img{
+    margin-left: 30px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+/*-------- right-side ----*/
+
+.right-side{
+    padding: 22px 12px 38px;
+    background: #fef2ff;
+    margin-left: 30px;
+}
+.ready-chat-middle{
+    padding:  0 8px;
+    height: 125px;
+    border: 1px solid #9d9d9d;
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.right-side .btn-default{
+    color: #333;
+    background-color: #e2097e;
+    border-color: #e2097e;
+    border-radius: 5px;
+    padding: 6px 30px;
+    margin-top: 22px;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    transition:.5s;
+    font-weight: 600;
+}
+.right-side .btn-default:hover{
+    background-color: #3a589b;
+    border-color: #3a589b;
+}
+.right-side input[type=text] {
+    border: 1px solid #b3b3b3;
+    padding: 4px 15px;
+    height: 40px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+/*-----------------------------------
+    Payment-Page Code CSS section
+-----------------------------------*/
+.lifetime input[type=text] {
+    border: 1px solid #b3b3b3;
+    padding: 4px 15px;
+    height: 45px;
+    width: 80%;
+    margin-left: 33px;
+    margin-top: 16px;
+    font-size: 14px;
+}
+.lifetime select[type=select]{
+   border: 1px solid #b3b3b3;
+    padding: 4px 15px;
+    height: 45px;
+    width: 80%;
+    margin-left: 33px;
+    margin-top: 16px;
+    font-size: 14px;
+}
+.lifetime{
+    background: #fff;
+    -webkit-box-shadow: -1px -1px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 13px 0px rgba(0,0,0,0.75);
+    height: 670px;
+    padding-top: 16px;
+}
+.form-holder{
+    background: #fef2ff;
+
+}
+.lifetime h5 a{
+    padding-right: 40px;
+    margin-top: 30px;
+}
+
+.lifetime select[type=select]{
+   border: 1px solid #b3b3b3;
+    padding: 4px 15px;
+    height: 45px;
+    width: 88%;
+    margin-left: 33px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+.lifetime select[type=select2]{
+    margin-left: 28px;
+    border: 1px solid #b3b3b3;
+    padding: 4px 15px;
+    height: 45px;
+    width: 80%;
+    margin-top: 8px;
+    font-size: 14px;
+}
+.lifetime .form-holder{
+    padding-bottom: 120px;
+    padding-top: 20px;
+}
+#payment-footer{
+    margin-top: 50px;
+}
+.bottom-para{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.life-time-select .form-group{
+    width:45%;
+}
+.lifetime .life-time-select h3{
+    font-size: 14px;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 45px;
+    font-weight: 700;
+}
+.lifetime .checkbox{
+    padding: 24px 36px;
+    font-size: 13px;
+    line-height: 14px;
+}
+
+/*------- lifetime2 ---*/
+
+.lifetime2{
+    background: #fff;
+    -webkit-box-shadow: -1px -1px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 13px 0px rgba(0,0,0,0.75);
+    height: 670px;
+    margin-left: 18px;
+}
+.lifetime2 .box-color{
+    background: #fef2ff;
+    margin-top: 20px;
+}
+.lifetime2 .free{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+}
+.free-unlimit{
+    background: #cbb1d0;
+    margin-left: 20% !important;
+    width: 175px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 7px;
+    color: #fff;
+}
+.free-cams{
+    background: #cbb1d0;
+    margin-left: 10% !important;
+    width: 172px;
+    padding-top: 17px;
+    padding-bottom: 8px;
+    padding-left: 7px;
+    color: #fff;
+}
+.lifetime2 ul li img{
+    padding-right: 4px;
+}
+.lifetime2  .safe-source{
+    font-weight: 700;
+    font-size: 15px;
+    padding-bottom: 8px;
+    color: #e2097e
+}
+
+/*------  Footer Section ----*/
+
+.footer{
+    padding-bottom: 10px
+}
+.footer h1{
+    font-size: 14px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    color: #a08ba2;
+    width: 54%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.footer h2{
+    font-size: 14px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    color: #a08ba2;
+    text-align: center;
+}
+
+/*-------------------
+    media section
+---------------------*/
+@media (max-width: 768px) and (min-width: 480px){
+    .chat-now {
+        margin-left: 14%;
+        width: 75%;
+    }
+
+    .right-side {
+        margin-left: 0px;
+    }
+    .lifetime {
+        margin-left: 30%;
+    }
+    .lifetime2 {
+        margin-left: 30%;
+    }
+}
+@media (max-width: 979px){
+    /*--  Chatnow page media section Start---*/
+    .footer h1 {
+        width: 100%;
+    }
+
+    .chat-now .form-holder {
+        padding: 15px;
+    }
+    /*--  payment page media section Start---*/
+    .layoutver {
+
+        margin-left: 0;
+        height: 100%;
+    }
+    .webcam-chat {
+        padding: 30px 30px 18px;
+    }
+    .connect-img img {
+        margin-left: auto;
+        padding-bottom: 5px;
+        padding-top: 10px;
+    }
+    .webcam-chat {
+        margin-left: 0px;
+        margin-bottom: 25px;
+    }
+    .life-time-select .form-group {
+        width: 90%;
+    }
+    .lifetime select[type="select2"] {
+        margin-left: 34px;
+        width: 88%;
+    }
+    .free-unlimit {
+        margin-left: 14% !important;
+    }
+    .free-cams {
+        margin-left: 14% !important;
+    }
+    .lifetime2 {
+        height: 100%;
+        margin: 10px;
+    }
+    .lifetime {
+        height: 100%;
+        margin: 10px;
+    }
+    .bottom-para {
+        padding-top: 20px;
+    }
+
+   /*--  payment page media section Start---*/
+
+
+}
+
+@media (max-width: 480px){
+    /*--  Chatnow page media section Start---*/
+    .chat-now {
+        height: 660px;
+        margin-left: 0%;
+        margin: 10px;
+    }
+
+    /*--  layoutver page media section Start---*/
+
+    .layoutver {
+        height: 100%;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .connect-img img {
+        margin-left: 2px;
+        padding-bottom: 5px;
+        padding-top: 0px;
+    }
+    .webcam-chat {
+        padding: 1px 12px 0px;
+        background: #fef2ff;
+        margin-left: 0px;
+    }
+    .layoutver .webcam h1 {
+        padding-top: 14px;
+    }
+    .connect-img img {
+        margin-left: 2px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+    .layoutver {
+        margin-left: 0px;
+        padding-top: 12px;
+    }
+    .right-side {
+
+        margin-left: 0px;
+    }
+
+   /*--  payment page media section Start---*/
+
+}
+
+@media (max-width: 1200px) and (min-width:980px){
+
+}
+.img-responsive {
+    margin: 0 auto;
+}
